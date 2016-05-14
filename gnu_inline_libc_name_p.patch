@@ -1,0 +1,11 @@
+--- src/gcc-4.9.3/gcc/cp/cfns.h.orig	2016-05-14 11:01:29.808782109 +0800
++++ src/gcc-4.9.3/gcc/cp/cfns.h	2016-05-14 11:02:00.816393109 +0800
+@@ -125,7 +125,7 @@
+ #ifdef __GNUC__
+ __inline
+ #ifdef __GNUC_STDC_INLINE__
+-__attribute__ ((__gnu_inline__))
++/*__attribute__ ((__gnu_inline__))*/
+ #endif
+ #endif
+ const char *
